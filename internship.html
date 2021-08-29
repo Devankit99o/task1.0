@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>internship</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel='stylesheet' type='text/css' media='screen' href='intership.css'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web\css\all.min.css">
+    <link rel="stylesheet" href="font.css\fontawesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="benear">
+
+        <nav id="nav">
+
+
+            <img class="logo" src="items\logo-tour.jpg" alt="" />
+            <a href="#" target="_blank" class="option">HOME </a>
+            <a href="#" target="_blank" class="option">TOURS </a>
+            <a href="#" target="_blank" class="option"> ABOUT </a>
+            <a href="#" target="_blank" class="option"> ADVANTAGES </a>
+            <a href="#" target="_blank" class="option"> BLOG </a>
+            <a href="#" target="_blank" class="option"> CONTACTS </a>
+
+            <span class="slide"></span>
+        </nav>
+
+        <h2 id="tagline"> The Best Trip Around The Iceland Begins With Us</h2>
+
+        <input id="date" type="datetime" placeholder="Date..." />
+        <input id="around" type="text" placeholder="your prise range" />
+        <button id="icon" class="button">search tours</button>
+        <div class="navcontact">
+
+            <i id="navhandle" class="fab fa-2x  fa-facebook-square"></i>
+            <i id="navhandle" class="fab  fa-2x fa-instagram"></i>
+            <i id="navhandle" class="fab fa-2x  fa-linkedin"></i>
+
+        </div>
+
+
+    </div>
+
+
+    <main>
+
+        <h2 id="tours"><span> Best sellers </span></h2>
+        <section class="places">
+
+            <div class="box"> <img id="place" src="items/iceland1.jpg" alt="this is image" />
+                <p id="duration">5days/4nights</p>
+                <p id="range">FROM $899</p>
+                <p class="text"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rerum?</span></p>
+            </div>
+            <div class="box"> <img id="place" src="items/iceland2.jpg" alt="this is image" />
+                <p id="duration">8days/7nights</p>
+                <p id="range">FROM $999</p>
+                <p class="text"> <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span></p>
+            </div>
+            <div class="box">
+                <img id="place" src="items/iceland3.jpg" alt="this is image" />
+                <p id="duration">7days/6nights</p>
+                <p id="range">FROM $799</p>
+                <p class="text"> <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, harum?</span></p>
+            </div>
+            <div class="box"><img id="place" src="items/iceland4.jpg" alt="this is image">
+
+                <p id="duration">9days/8night</p>
+                <p id="range">FROM $1199</p>
+                <p class="text"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, mollitia!</span></p>
+            </div>
+            <div class="box"><img id="place" src="items/thailand pic.jpg" alt="this is image" />
+
+                <p id="duration">8days/7night</p>
+                <p id="range">FROM $1099</p>
+                <p class="text"> <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, dignissimos?</span></p>
+            </div>
+            <div class="box"> <img id="place" src="items/ice2.jpg" alt="this is image">
+
+                <p id="duration">15days/14night</p>
+                <p id="range">FROM $2299</p>
+                <p class="text"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium.</span></p>
+                <button id="button_design">view all tours</button>
+            </div>
+        </section>
+
+        <section class="about">
+            <aside class="about_left">
+                <p id="difdest">our values </h4>
+                    <p>Since our foundation, ExploreTour has been the leading tour agency in Iceland, offering top-quality services. We take great pride in our diverse portfolio of tours in Iceland. We also offer high quality tours and experiences.</p>
+                    <button id="icon">read more</button>
+            </aside>
+            <aside class="about_right">
+                <p id="difdest"> destinations </p>
+                <p>north iceland</p>
+                <div class="container_bar">
+                    <div id="Bar" class="progress" style="width: 20%"></div>
+                </div>
+                <p id="demo">20%</p>
+                <button id="button_design" onclick="move()"> push</button>
+                <p>east iceland</p>
+                <div class="container_bar">
+                    <div id="Bar" class="progress" style="width: 40%;"></div>
+                </div>
+                <p id="demo">40%</p>
+                <button id="button_design" onclick="move()"> push</button>
+                <p>west iceland</p>
+                <div class="container_bar">
+                    <div id="Bar" class="progress" style=" width:80%"> </div>
+                </div>
+                <p id="demo">80%</p>
+                <button id="button_design" onclick="move()"> push</button>
+
+
+                <p>south iceland</p>
+                <div class="container_bar">
+                    <div id="Bar" class="progress" style="width: 50%;"></div>
+                </div>
+                <p id="demo">50%</p>
+                <button id="button_design" onclick="move()"> push</button>
+            </aside>
+
+        </section>
+        <section id="compname">
+
+            <p id="difdest"> <span> Our Partner </span> </p>
+            <div class="partners">
+                <div id="logo1"> <img src="items\logo1.jpg" /></div>
+
+                <div id="logo"> <img src="items\logo2.jpg" /> </div>
+
+                <div id="logo1"> <img src="items\logo3.jpg" /> </div>
+
+                <div id="logo1"> <img src="items/logo-tour.jpg" /> </div>
+
+            </div>
+        </section>
+        <h2><span> OUR ADVANTAGES </span> </h2>
+        <section>
+            <p> You can rely on our experience and the quality of services we provide. Here are other reasons to book tours at ExploreTour.</p>
+            <div class="favcontainer">
+                <div class="favicon"> <i class="far fa-5x fa-thumbs-up"></i>
+                    <p id="favtext">EASY BOOKING</p>
+                </div>
+
+                <div class="favicon">
+                    <i class="fas fa-5x fa-rupee-sign"></i>
+                    <p id="favtext">LOWEST PRISE</p>
+
+                </div>
+
+                <div class="favicon">
+                    <i class="fas fa-5x fa-align-left"></i>
+                    <p id="favtext">VARIRTY OF TOURS</p>
+                </div>
+
+                <div class="favicon4">
+                    <i class="far fa-5x fa-gem"></i>
+                    <p id="favtext">MOST POPULAR AGENCY</p>
+                </div>
+            </div>
+        </section>
+        <section id="favtag">
+            <p id="tagline"> Experience the Beauty of Iceland </p>
+
+            <p id="mainicon" class="animation1">BOOK A TOURS</p>
+
+        </section>
+
+        <h2> <span>TESTIMONIALS</span> </h2>
+        <section>
+            <div id="testimage">
+                <img src="items\testimonials2.jpg" alt="" class="testimonial">
+                <img src="items\testimonial4.jpg" alt="" class="testimonial">
+                <img src="items/testimonials3.jpg" alt="" class="testimonial">
+            </div>
+            <p id="testicon" class="animation">VIEW ALL TESTIMONIAL</p>
+
+        </section>
+        <section id="opinion">
+            <div class="opinion_container">
+                <div id="op_item">
+                    <i class="fas fa-2x fa-user-friends"></i>
+                    <p id="op_value">1.5M</h1>
+                        <p class="op_item1">HAPPY CLIENT</p>
+
+                </div>
+                <div id="op_item">
+                    <i class="fas fa-2x fa-star"></i>
+                    <p id="op_value">251</p>
+                    <p class="op_item1">AMAZING TOURS</p>
+                </div>
+                <div id="op_item">
+                    <i class="fas fa-2x fa-handshake"></i>
+                    <p id="op_value">121</p>
+                    <P class="op_item1">PARTNERS</P>
+                </div>
+                <div id="op_item">
+                    <i class="fas fa-2x fa-comment-alt"></i>
+                    <p id="op_value">9k</p>
+                    <p class="op_item1">QUESTION/ANSWERS</p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <h2> <span>Latest Blog Post </span></h2>
+        <section class="section_size">
+            <div class="main-carousel" data-flickity='{ "wrapAround": true}'>
+                <div class="carousel-cell">
+                    <iframe width="1000" height="600" src="https://www.youtube.com/embed/monyiTNcKPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="carousel-cell">
+                    <iframe width="1000" height="600" src="https://www.youtube.com/embed/T68q-6ipEuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div class="carousel-cell">
+                    <iframe width="1000" height="600" src="https://www.youtube.com/embed/y8WKScKd9Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section class="gallary">
+            <div>
+                <p style="color: white;"> our gallary</p>
+                <p id="tagline">
+                    See Iceland Through Our Eyes As We Capture Nature, Culture & Everyday Life
+                </p>
+                <p id="tagline4"> Take a look at our gallery that features the best moments from our tours and excursions.</p>
+            </div>
+        </section>
+        <section class="section_size">
+            <h2><span> VIEW GALLARY</span> </h2>
+
+            <div class="main-carousel" data-flickity='{ "wrapAround": true}'>
+                <div class="carousel-cell">
+                    <img id="embededimage" src="pics/gallary2.jpg" alt="image"></img>
+
+                </div>
+                <div class="carousel-cell">
+                    <img id="embededimage" src="pics/gallary4.jpg" alt="image"></img>
+
+
+                </div>
+                <div class="carousel-cell">
+                    <img id="embededimage" src="pics/gallary4.jpg" alt="image"></img>
+
+
+                </div>
+
+            </div>
+        </section>
+        <SECTION>
+            <aside class="about_left">
+                <p id="difdest">GET IN TOUCH </p>
+                <p> <input type="text" name="username" id="name" placeholder="name..."></p>
+                <p> <input type="email" name="email" id="email" placeholder="xyz34@gmail.com"> </p>
+                <p> <textarea rows="15" cols="15" name="message" id="message" placeholder="message..."></textarea> </p>
+                <button id="icon">SEND</button>
+            </aside>
+
+            <aside class="about_right">
+
+                <div class="contactinfo">
+                    <i class="fas fa-2x fa-phone-square-alt"></i>
+                    <P id="number">9-600-1234-467</P>
+                </div>
+                <div class="contactinfo">
+                    <i class="far fa-2x fa-envelope"></i>
+                    <P id="number">tour_travel.org.in</P>
+                </div>
+                <div class="contactinfo">
+
+                    <i id="face" class="fab fa-2x fa-facebook-square"></i>
+                    <i id="face" class="fab fa-2x fa-instagram"></i>
+                    <i id="face" class="fab fa-2x fa-linkedin"></i>
+
+                </div>
+            </aside>
+
+
+        </section>
+
+        <h2> <span>  founder </span></h2>
+        <section>
+            <img id="founder" src="pics/IMG_20200704_174903_653.jpg" alt="this is ankit yadav" width="35%" />
+
+            <h2> Ankit yadav </h2>
+            <a class="details" id="ytube_logo" href="#" target="_blank" data-youtube="ankit//466youtube.com">youtube</a> &nbsp &nbsp | &nbsp &nbsp;
+
+            <a class="details" id="linkdien_logo" href="#" target="_blank" data-linkdien="ankit.lnkidien">linkedin</a> &nbsp &nbsp | &nbsp &nbsp;
+            <a class="details" id="insta_logo" href="https://www.instagram.com/yadav._.ankit1/" target="_blank" data-insta="https://www.instagram.com/yadav._.ankit1/">instagram</a> &nbsp &nbsp | &nbsp &nbsp;
+            <a class="details" id="email_logo" href="ankit2019yadavendra@gmail.com" target="_blank" data-email="ankit2019yadavendra@gmail.com">email</a>
+            <h4>Founded in 2005, ExploreTour offers travelers a great selection of tours and excursions in Iceland. Explore the best and yet untraveled places of this breathtaking Northern destination.</h4>
+        </section>
+        <section class="above_footer">
+
+            <div class="footer_container ">
+                <div class="footer_item ">
+                    <p class="footer_value ">356</p>
+                    <p class="footer_items ">tours</p>
+                </div>
+                <div class="footer_item ">
+                    <p class="footer_value ">213</p>
+                    <p class="footer_items ">Regular Excursions and Itineraries</p>
+
+                </div>
+                <div class="footer_item ">
+                    <p class="footer_value ">2198</p>
+                    <p class="footer_items ">satisfied customers</p>
+                </div>
+                <div class="footer_item ">
+                    <p class="footer_value ">21</p>
+                    <p class="footer_items ">years of experience in tourism</p>
+                </div>
+            </div>
+
+
+
+            <div class="footer_right ">
+                <div class="footer_item2 ">
+                    <p>
+                        <span>twitter Feed </span>
+                    </p>
+                    <div class="inline ">
+                        <i class="fab fa-twitter "></i>
+                        <p class="twitter "> The Rule Of Thirds: An Ultimate Key To Your Stunning <a href="# ">#Photo  -  https://goo.gl/owH6x5 #webdesign</a></p>
+                    </div>
+                </div>
+                <div class="footer_item2 ">
+                    <div class="inline ">
+                        <i class="fab fa-twitter "></i>
+                        <p class="twitter "> 50 Professional #CV Templates For Word That Look Like50 Professional <a href="# "> #Photoshop  Designs -  https://goo.gl/zynQiY #webdesign</a></p>
+                    </div>
+                </div>
+                <div class="footer_item2 ">
+                    <div class="inline ">
+                        <i class="fab fa-twitter "></i>
+                        <p class="twitter "> The Art of Paper: 10 Best Notebooks for <a href="# ">#Designers - https://goo.gl/7dDT #inspiration </a></p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <a href="# " target="_blank "> FAQ</a>
+        <a href="# " target="_blank ">  term of use</a>
+        <a href="# " target="_blank "> contact  us</a>
+        <a href="# " target="_blank "> privacy policy </a>
+        <a href="# " target="_blank "> refund policy</a>
+        <a id="copy-right " href="# " target="_blank "> &copy;  | 2020 apnikaksha</a>
+    </footer>
+    <script src="/path/to/flickity.pkgd.min.js "></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js "></script>
+    <script src="internship.js "></script>
+
+</body>
+
+</html>
